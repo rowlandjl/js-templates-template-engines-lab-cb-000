@@ -6,4 +6,6 @@ function createPost() {
   var postTitle = document.getElementById("postTitle").value;
   var postAuthor = document.getElementById("postAuthor").value;
   var post = document.getElementById("postBody").value;
+  
+  document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
 }
